@@ -48,8 +48,8 @@ print(f"Using device: {device}")
 
 # Path Configuration
 RNA_ERNIE_PATH = r'/root/autodl-tmp/Big_Model/RNAErnie_Original/ZhejiangLab-LifeScience/rnaernie'
-TRAIN_EXCEL_PATH = "/root/autodl-tmp/Run/Run/yuchuli/RNAi_train616_New_RNA.xlsx"
-TEST_EXCEL_PATH = "/root/autodl-tmp/Run/Run/yuchuli/RNAi_test616_New_RNA.xlsx"
+TRAIN_EXCEL_PATH = "/root/autodl-tmp/data/train_RNA.xlsx"
+TEST_EXCEL_PATH = "/root/autodl-tmp/data/test_RNA.xlsx"
 SAVE_MODEL_PREFIX = 'stage1model_fold_'
 
 # Hyperparameters
