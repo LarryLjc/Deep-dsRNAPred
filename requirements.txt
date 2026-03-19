@@ -1,0 +1,11 @@
+# python==3.12
+
+torch==2.8.0+cu128
+numpy==2.3.2
+pandas==2.3.3
+transformers==4.57.6
+scikit-learn==1.7.2
+xgboost==3.1.2
+lightgbm==4.6.0
+catboost==1.2.8
+biopython==1.86
