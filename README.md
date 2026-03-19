@@ -3,9 +3,9 @@
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![PyTorch 2.8.0](https://img.shields.io/badge/PyTorch-2.8.0%2Bcu128-EE4C2C.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+<div align="justify">
 **Deep-dsRNAPred** is a high-precision deep learning framework designed for screening efficient double-stranded RNA (dsRNA) sequences targeting *Tribolium castaneum* (red flour beetle) for RNA interference (RNAi) based pest control.
-
+</div>
 
 ## 📖 Introduction
 
