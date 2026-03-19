@@ -6,11 +6,16 @@
 
 **Deep-dsRNAPred** is a high-precision deep learning framework designed for screening efficient double-stranded RNA (dsRNA) sequences targeting *Tribolium castaneum* (red flour beetle) for RNA interference (RNAi) based pest control.
 
+
 ## 📖 Introduction
+
+<div align="justify">
 
 RNA interference (RNAi) is a revolutionary technology in pest management, but its real-world efficacy is heavily bottlenecked by the unpredictable silencing efficiency of designed dsRNA sequences. 
 
 **Deep-dsRNAPred** solves this by offering a highly accurate computational pre-screening tool. Our model utilizes the **RNAErnie** pre-trained foundation model for sequence feature extraction and overcomes traditional length limitations using a novel linear interpolation algorithm for positional embeddings. The extracted features are then processed through a synergistic deep learning architecture comprising **Multi-scale Selective Kernel Attention (SKAttention)**, **Convolutional Block Attention Module (CBAM)**, and **Bidirectional LSTM (BiLSTM)** to capture features ranging from local nucleotide motifs to global spatial structures.
+
+</div>
 
 ## ⚙️ Architecture
 ![图片1](https://github.com/user-attachments/assets/2aef0278-d6cb-4e58-80ca-66551800a24a)
