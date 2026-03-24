@@ -20,8 +20,9 @@ RNA interference (RNAi) is a revolutionary technology in pest management, but it
 </div>
 
 ## ⚙️ Architecture
-![图片1](https://github.com/user-attachments/assets/2aef0278-d6cb-4e58-80ca-66551800a24a)
 
+
+<img width="503" height="304" alt="image" src="https://github.com/user-attachments/assets/ba7312c8-ab60-4af5-88f0-bd7d79d29a54" />
 
 
 
