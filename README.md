@@ -15,14 +15,15 @@
 
 RNA interference (RNAi) is a revolutionary technology in pest management, but its real-world efficacy is heavily bottlenecked by the unpredictable silencing efficiency of designed dsRNA sequences. 
 
-**Deep-dsRNAPred** solves this by offering a highly accurate computational pre-screening tool. Our model utilizes the **MP-RNA** pre-trained foundation model for sequence feature extraction and overcomes traditional length limitations using a novel linear interpolation algorithm for positional embeddings. The extracted features are then processed through a synergistic deep learning architecture comprising **Multi-scale Selective Kernel Attention (SKAttention)**, **Convolutional Block Attention Module (CBAM)**, and **Bidirectional LSTM (BiLSTM)** to capture features ranging from local nucleotide motifs to global spatial structures.
+Developed **Deep-dsRNAPred**, a deep learning framework designed to screen highly efficient dsRNA sequences for pest control targeting Tribolium castaneum. Leveraging the RiNALMo-mega pre-trained large language model for feature extraction, the model innovatively integrates Multi-scale Selective Kernel Attention (SKAttention), CBAM, and BiLSTM mechanisms to hierarchically capture sequence features from local motifs to global structures. Experiments demonstrate that Deep-dsRNAPred achieved an Accuracy of 0.9535 and an AUC of 0.9891, improving upon the existing state-of-the-art model by 9.83% and 6.53%, respectively.
 
 </div>
 
 ## ⚙️ Architecture
 
 
-<img width="503" height="304" alt="image" src="https://github.com/user-attachments/assets/ba7312c8-ab60-4af5-88f0-bd7d79d29a54" />
+<img width="4984" height="3227" alt="图片2" src="https://github.com/user-attachments/assets/c9f0eef1-87e3-4b05-8ad3-f3586e430ae1" />
+
 
 
 
